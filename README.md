@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📊 Retail Sales Analytics Dashboard
+# 📊 RetailIQ – Retail Sales Analytics Dashboard
 
 ### An End-to-End Retail Sales Analytics Portfolio Project
 
@@ -14,11 +14,16 @@
 [![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
+[![GitHub](https://img.shields.io/badge/GitHub-PriyanshuGoswami-181717?style=for-the-badge&logo=github)](https://github.com/priyanshugoswami9027)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/priyanshugoswami01/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-6C63FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://priyanshugoswami9027.github.io/)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:priyanshugoswami089@gmail.com)
+
 <br/>
 
-*Demonstrating the complete Data Analytics workflow — from raw data to executive insights*
+**Demonstrating the complete Data Analytics workflow — from raw data to executive insights.**
 
-*Built using Python, SQL, Jupyter Notebook, and Power BI to analyze retail sales data and generate actionable business insights.*
+**Built using Python, SQL, Jupyter Notebook, and Power BI to analyze retail sales data and generate actionable business insights.**
 
 </div>
 
@@ -29,44 +34,44 @@
 - [Project Overview](#-project-overview)
 - [Repository Overview](#-repository-overview)
 - [Project Objectives](#-project-objectives)
-- [Tech Stack](#%EF%B8%8F-tech-stack)
+- [Tech Stack](#️-tech-stack)
 - [Skills Demonstrated](#-skills-demonstrated)
 - [Repository Structure](#-repository-structure)
 - [Dataset Information](#-dataset-information)
 - [Sample Visualizations](#-sample-visualizations)
 - [Power BI Dashboard](#-power-bi-dashboard)
 - [EDA Highlights](#-eda-highlights)
-- [SQL Analysis](#%EF%B8%8F-sql-analysis)
+- [SQL Analysis](#️-sql-analysis)
 - [Business Insights](#-business-insights)
 - [How to Run](#-how-to-run)
 - [Future Enhancements](#-future-enhancements)
 - [Quick Links](#-quick-links)
-- [Author](#-author)
+- [Project Maintainer & Attribution](#-project-maintainer--attribution)
 - [License](#-license)
 
 ---
 
 ## 📌 Project Overview
 
-This project showcases a **production-quality retail sales analytics pipeline** built on the **Superstore Sales Dataset** — a realistic retail dataset with 9,994 transactions spanning 4 years (2014–2017) across the United States.
+RetailIQ is a retail sales analytics portfolio project based on the **Superstore Sales Dataset** — a retail dataset containing 9,994 transactions spanning four years (2014–2017) across the United States.
 
-The project demonstrates the **complete Data Analyst workflow**:
+The project demonstrates an end-to-end data analytics workflow:
 
-```
+```text
 Raw Data → Cleaning → EDA → SQL Analysis → Visualization → Insights → Dashboard
 ```
 
-It is designed to reflect the kind of work done in entry-level to junior Data Analyst, Business Analyst, and Data Science roles — not a tutorial, but a real portfolio deliverable.
+It is intended to demonstrate skills relevant to entry-level and junior Data Analyst, Business Analyst, and Data Science roles.
 
 ---
 
 ## 📈 Repository Overview
 
-| | |
+| Area | Contents |
 |---|---|
-| 📂 **Project Files** | 40 files across 8 folders |
+| 📂 **Project Files** | 40 files across 8 folders (as described by the project source) |
 | 📓 **Jupyter Notebooks** | 5 notebooks (Collection → Insights) |
-| 📊 **Visualizations** | 10 professional dark-theme charts |
+| 📊 **Visualizations** | 10 dark-theme charts |
 | 🗄️ **SQL Scripts** | 9 scripts (DDL → Triggers → 30 Interview Q&A) |
 | 📈 **Power BI Dashboard** | 1 interactive dashboard (5 pages) |
 | 📋 **Business Reports** | 2 reports (Full Analysis + Executive Summary) |
@@ -120,51 +125,51 @@ It is designed to reflect the kind of work done in entry-level to junior Data An
 
 ## 📂 Repository Structure
 
-```
-Retail-Sales-Analytics-Dashboard/
+```text
+Priyanshu-RetailIQ/
 │
-├── 📄 README.md
-├── 📄 LICENSE
-├── 📄 requirements.txt
-├── 📄 .gitignore
-├── 📄 generate_outputs.py          ← Run this to regenerate all outputs
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── .gitignore
+├── generate_outputs.py          # Run this to regenerate outputs
 │
-├── 📂 dataset/
-│   ├── superstore_sales.csv        ← Raw Superstore dataset (9,994 rows)
-│   ├── superstore_clean.csv        ← Cleaned dataset (generated)
+├── dataset/
+│   ├── superstore_sales.csv     # Raw Superstore dataset (9,994 rows)
+│   ├── superstore_clean.csv     # Cleaned dataset (generated)
 │   └── data_dictionary.md
 │
-├── 📂 notebooks/
+├── notebooks/
 │   ├── 01_data_collection.ipynb
 │   ├── 02_data_cleaning.ipynb
 │   ├── 03_exploratory_data_analysis.ipynb
 │   ├── 04_data_visualization.ipynb
 │   └── 05_business_insights.ipynb
 │
-├── 📂 analysis/
-│   ├── sales_analysis.py           ← KPIs, category, region, discount
-│   ├── customer_segmentation.py    ← RFM scoring & customer segments
-│   └── trend_analysis.py           ← Monthly/yearly trends & seasonality
+├── analysis/
+│   ├── sales_analysis.py
+│   ├── customer_segmentation.py
+│   └── trend_analysis.py
 │
-├── 📂 sql/
+├── sql/
 │   ├── 01_ddl_create_tables.sql
 │   ├── 02_insert_data.sql
 │   ├── 03_basic_queries.sql
 │   ├── 04_joins.sql
-│   ├── 05_subqueries.sql           ← CTEs, Window Functions
+│   ├── 05_subqueries.sql
 │   ├── 06_views.sql
 │   ├── 07_stored_procedures.sql
 │   ├── 08_triggers.sql
-│   ├── 09_interview_queries.sql    ← 30 SQL interview Q&A
+│   ├── 09_interview_queries.sql
 │   └── README.md
 │
-├── 📂 visualizations/              ← 10 generated chart PNGs
-├── 📂 dashboard/
-│   ├── Sales_Dashboard.pbix        ← Power BI dashboard
+├── visualizations/              # Generated chart PNGs
+├── dashboard/
+│   ├── Sales_Dashboard.pbix
 │   ├── dashboard_preview.md
 │   └── README.md
 │
-└── 📂 reports/
+└── reports/
     ├── business_insights_report.md
     └── executive_summary.md
 ```
@@ -197,40 +202,44 @@ Retail-Sales-Analytics-Dashboard/
 | `Sub-Category` | Categorical | 17 sub-categories |
 | `Sales` | Float | Revenue from the transaction |
 | `Quantity` | Integer | Units ordered |
-| `Discount` | Float | Discount rate (0.0 – 1.0) |
+| `Discount` | Float | Discount rate (0.0–1.0) |
 | `Profit` | Float | Net profit (can be negative) |
 
 ---
 
 ## 📊 Sample Visualizations
 
-> All 10 charts are generated automatically by running `generate_outputs.py`
+The project source describes 10 charts generated by running `generate_outputs.py`.
 
 ### Monthly Sales & Profit Trend (2014–2017)
+
 ![Monthly Sales Trend](visualizations/03_monthly_sales_trend.png)
 
 ### Sales & Profit by Category
+
 ![Category Sales and Profit](visualizations/01_category_sales_profit.png)
 
 ### Profit by Sub-Category (Loss Detection)
+
 ![Sub-Category Profit](visualizations/02_subcategory_profit.png)
 
 ### Sales vs Profit — Discount Impact
+
 ![Sales vs Profit Scatter](visualizations/06_sales_profit_scatter.png)
 
 ### Correlation Matrix
+
 ![Correlation Matrix](visualizations/09_correlation_matrix.png)
 
 ### Top 10 Products by Revenue
+
 ![Top 10 Products](visualizations/10_top_products.png)
 
 ---
 
 ## 📊 Power BI Dashboard
 
-![Retail Sales Analytics Dashboard](images/dashboard_preview.png)
-
-The dashboard features **5 interactive pages** with cross-filtering slicers:
+The dashboard is described as having **5 interactive pages** with cross-filtering slicers. For dashboard documentation, see [`dashboard/README.md`](dashboard/README.md):
 
 | Page | Content |
 |---|---|
@@ -240,16 +249,17 @@ The dashboard features **5 interactive pages** with cross-filtering slicers:
 | **Regional** | US filled map, state rankings |
 | **Customers** | Segment donut, RFM scatter, LTV table |
 
-**Slicers**: Year · Region · Category · Segment · Ship Mode
+**Slicers:** Year · Region · Category · Segment · Ship Mode
 
-> 💡 Open `dashboard/Sales_Dashboard.pbix` in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free) to explore the fully interactive version.
+Open `dashboard/Sales_Dashboard.pbix` in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) to explore the interactive dashboard. Power BI Desktop is primarily available for Windows.
 
 ---
 
 ## 🔬 EDA Highlights
 
 ### Business KPIs
-```
+
+```text
 Total Revenue    : $2,297,200
 Total Profit     : $286,397
 Profit Margin    : 12.47%
@@ -259,26 +269,30 @@ Avg Order Value  : $458.69
 ```
 
 ### Category Performance
+
 | Category | Revenue | Profit | Margin |
-|---|---|---|---|
+|---|---:|---:|---:|
 | Technology | $836,154 | $145,455 | 17.4% |
 | Furniture | $741,999 | $18,451 | 2.5% |
 | Office Supplies | $719,047 | $122,491 | 17.0% |
 
 ### Regional Performance
+
 | Region | Revenue | Margin |
-|---|---|---|
+|---|---:|---:|
 | West | $725,457 | 14.9% |
 | East | $678,781 | 13.5% |
 | Central | $501,239 | 7.9% |
 | South | $391,723 | 11.9% |
 
 ### Customer Segmentation (RFM)
-Using **Recency, Frequency, Monetary** scoring, customers were classified into:
+
+Using **Recency, Frequency, Monetary** scoring, customers are classified into:
+
 - 🏆 **Champions** — Most recent, frequent, and high-value buyers
 - 💎 **Loyal Customers** — Consistent, high-value, slightly older purchases
 - 🌱 **Potential Loyalists** — Recent buyers with growth potential
-- ⚠️ **At Risk** — Previously good customers who've gone quiet
+- ⚠️ **At Risk** — Previously good customers who have gone quiet
 - 😴 **Hibernating** — Low recent activity
 - ❌ **Lost** — No recent interaction
 
@@ -286,7 +300,7 @@ Using **Recency, Frequency, Monetary** scoring, customers were classified into:
 
 ## 🗄️ SQL Analysis
 
-All SQL scripts are in the `sql/` folder, organized by complexity:
+SQL scripts are in the `sql/` folder and are organized by complexity:
 
 | Concept | File | Examples |
 |---|---|---|
@@ -298,19 +312,22 @@ All SQL scripts are in the `sql/` folder, organized by complexity:
 | Views | `06_views.sql` | CREATE VIEW, Denormalized fact views |
 | Procedures | `07_stored_procedures.sql` | Parameterized report procedures |
 | Triggers | `08_triggers.sql` | Audit logging, Data integrity |
-| Interview | `09_interview_queries.sql` | 30 real DA interview questions |
+| Interview | `09_interview_queries.sql` | 30 Data Analyst interview questions |
 
 ### Sample Query — RFM Segmentation in SQL
+
 ```sql
 WITH customer_rfm AS (
     SELECT
-        c.customer_id, c.customer_name, c.segment,
+        c.customer_id,
+        c.customer_name,
+        c.segment,
         DATEDIFF('2018-01-01', MAX(o.order_date)) AS recency_days,
-        COUNT(DISTINCT o.order_id)                 AS frequency,
-        ROUND(SUM(oi.sales), 2)                    AS monetary
+        COUNT(DISTINCT o.order_id) AS frequency,
+        ROUND(SUM(oi.sales), 2) AS monetary
     FROM customers c
-    JOIN orders o      ON c.customer_id = o.customer_id
-    JOIN order_items oi ON o.order_id   = oi.order_id
+    JOIN orders o ON c.customer_id = o.customer_id
+    JOIN order_items oi ON o.order_id = oi.order_id
     GROUP BY c.customer_id, c.customer_name, c.segment
 )
 SELECT *,
@@ -328,57 +345,70 @@ FROM customer_rfm;
 ## 💡 Business Insights
 
 ### 🔴 Critical Issues
-1. **Discounts above 30%** cause losses on 58% of transactions → immediate policy change needed
-2. **Furniture Tables** sub-category loses -$17,725 annually → reprice or exit
-3. **Central Region** has only 7.9% margin → investigate cost structure
+
+1. **Discounts above 30%** cause losses on 58% of transactions — review the discount policy.
+2. **Furniture Tables** sub-category loses $17,725 annually — review pricing and costs.
+3. **Central Region** has a 7.9% margin — investigate the cost structure.
 
 ### 🟡 Growth Opportunities
-4. **Corporate segment** has the highest avg order value ($520) → dedicate account managers
-5. **Technology margins are 17%+** → increase marketing budget
-6. **30% of customers are At Risk or Hibernating** → RFM re-engagement campaigns
+
+4. **Corporate segment** has the highest average order value ($520) — consider dedicated account management.
+5. **Technology margins are 17%+** — evaluate opportunities for additional marketing investment.
+6. **30% of customers are At Risk or Hibernating** — consider RFM-based re-engagement campaigns.
 
 ### 🟢 What's Working
-7. **Consistent YoY revenue growth** (20%+ in 2017)
-8. **West Region** is the most profitable — use as benchmark for others
-9. **Copiers sub-category** has 37% margin — expand to underperforming regions
 
-> *These insights are based on exploratory data analysis of the Superstore dataset and are intended to demonstrate how analytical findings can support business decision-making.*
+7. **Consistent year-over-year revenue growth** (20%+ in 2017).
+8. **West Region** is the most profitable — use it as a benchmark for other regions.
+9. **Copiers sub-category** has a 37% margin — evaluate expansion opportunities.
+
+> These insights are based on the analysis described in this project and should be validated against the underlying data and business context before making operational decisions.
 
 ---
 
 ## 🚀 How to Run
 
 ### Prerequisites
-```
-Python 3.9+    |    MySQL 8.0+    |    Jupyter Notebook    |    Power BI Desktop
-```
 
-### Quick Start
+- Python 3.9+
+- MySQL 8.0+ (for SQL scripts)
+- Jupyter Notebook
+- Power BI Desktop (for the `.pbix` dashboard; Windows)
+
+### Quick Start (Linux / macOS)
+
 ```bash
-# 1. Clone the repository
-git clone https://github.com/dineshkumarg5/Retail-Sales-Analytics-Dashboard.git
-cd Retail-Sales-Analytics-Dashboard
+# 1. Clone your repository
+git clone https://github.com/priyanshugoswami9027/Priyanshu-RetailIQ.git
+cd Priyanshu-RetailIQ
 
-# 2. Install dependencies
+# 2. Create and activate a virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# 3. Install dependencies
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 
-# 3. Generate all outputs (clean CSV + 10 charts)
-py -3.12 generate_outputs.py
+# 4. Generate the cleaned dataset and charts
+python3 generate_outputs.py
 
-# 4. Launch Jupyter for interactive notebooks
+# 5. Launch Jupyter Notebook
 jupyter notebook notebooks/
 ```
 
 ### Run Notebooks in Order
-```
-01_data_collection.ipynb     → Dataset loading & profiling
-02_data_cleaning.ipynb       → Cleaning, types, feature engineering
-03_exploratory_data_analysis → 15+ EDA analyses
-04_data_visualization.ipynb  → 10 professional charts
-05_business_insights.ipynb   → RFM, trends, recommendations
+
+```text
+01_data_collection.ipynb          → Dataset loading & profiling
+02_data_cleaning.ipynb            → Cleaning, types, feature engineering
+03_exploratory_data_analysis.ipynb → EDA analyses
+04_data_visualization.ipynb       → Charts and visualizations
+05_business_insights.ipynb        → RFM, trends, recommendations
 ```
 
 ### SQL Setup
+
 ```bash
 mysql -u root -p < sql/01_ddl_create_tables.sql
 mysql -u root -p < sql/02_insert_data.sql
@@ -415,23 +445,39 @@ mysql -u root -p < sql/02_insert_data.sql
 
 ---
 
-## 👤 Author
+## 👤 Project Maintainer & Attribution
 
 <div align="center">
 
-**Dinesh Kumar G**
+### Priyanshu Goswami
 
-[![GitHub](https://img.shields.io/badge/GitHub-dineshkumarg5-181717?style=for-the-badge&logo=github)](https://github.com/dineshkumarg5)&nbsp;&nbsp;&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/dineshkumarg5)&nbsp;&nbsp;&nbsp;[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dinesh369.official@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-PriyanshuGoswami-181717?style=for-the-badge&logo=github)](https://github.com/priyanshugoswami9027)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/priyanshugoswami01/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-6C63FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://priyanshugoswami9027.github.io/)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:priyanshugwami089@gmail.com)
 
 </div>
+
+### Original Project Attribution
+
+This repository is based on the original **Retail Sales Analytics Dashboard** by **Dinesh Kumar G**.
+
+- Original repository: [dineshkumarg5/Retail-Sales-Analytics-Dashboard](https://github.com/dineshkumarg5/Retail-Sales-Analytics-Dashboard)
+- This repository is maintained by Priyanshu Goswami and may include personal documentation, configuration, and future enhancements.
+- The original MIT license and copyright notice are retained in the [`LICENSE`](LICENSE) file.
+
+If you use or build upon this project, please retain the applicable license and attribution notices.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+This project is distributed under the MIT License. See the [`LICENSE`](LICENSE) file for the complete license text and original copyright notice.
 
 ---
 
-*If this project helped you, consider giving it a ⭐ on GitHub!*
-# Priyanshu-RetailIQ
+<div align="center">
+
+If this project is useful, consider giving the repository a ⭐ on GitHub.
+
+</div>
